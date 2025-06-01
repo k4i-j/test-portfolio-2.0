@@ -32,4 +32,3 @@ setInterval(() => {
   if (index >= track.children.length) index = 0;
   track.style.transform = `translateX(-${index * 100}%)`;
 }, 3000);
-
